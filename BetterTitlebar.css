@@ -1,0 +1,17 @@
+/* title bar */
+.titleBar__710b0 {
+    &.withFrame__5e49e {
+        height: 28px;
+    }
+
+    .wordmarkWindows_ffbc5e {
+        svg {
+            height: 24px;
+        }
+    }
+
+    .winButton_f17fb6 {
+        width: 46px;
+        height: 32px;
+    }
+}
