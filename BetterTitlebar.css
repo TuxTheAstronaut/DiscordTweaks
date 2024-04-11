@@ -15,3 +15,10 @@
         height: 32px;
     }
 }
+
+
+
+/* fixes */
+.platform-win .container__827e6 {
+    top: -4%;
+}
