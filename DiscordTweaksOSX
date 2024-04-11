@@ -1,51 +1,31 @@
-/* title bar */
-.titleBar__710b0 {
-    &.withFrame__5e49e {
-        height: 28px;
-    }
-
-    .wordmarkWindows_ffbc5e {
-        svg {
-            height: 24px;
-        }
-    }
-
-    .winButton_f17fb6 {
-        width: 46px;
-        height: 32px;
-    }
-}
-
-
-
 /* top bar */
 .theme-dark .searchBar__621ec {
-    background: #1E1F22;
-    box-shadow: 0 4px 6px rgba(30, 31, 34, 0.8), 0 1px 3px rgba(30, 31, 34, 0.6), 0 0 0 1px rgba(30, 31, 34, 0.4);
+    background: var(--background-tertiary);
+    box-shadow: 0 4px 6px var(--background-tertiary), 0 1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
 }
 
 .theme-dark .searchBarComponent__8f95f {
     border-radius: 8px;
-    border: 1px solid #35363C;
+    border: 1px solid var(--background-primary);
 }
 
 
 
 /* profile */
 .theme-dark .container_debb33 {
-    background: #1E1F22;
-    box-shadow: 0 -4px 6px rgba(30, 31, 34, 0.8), 0 -1px 3px rgba(30, 31, 34, 0.6), 0 0 0 1px rgba(30, 31, 34, 0.4);
+    background: var(--background-tertiary);
+    box-shadow: 0 -4px 6px var(--background-tertiary), 0 -1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
 }
 
 
 
 /* server channles */
 .theme-dark .container__7e23c {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 .theme-dark .sidebar_e031be {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 .theme-dark .header__77c95 {
@@ -53,41 +33,41 @@
 }
 
 .theme-dark .animatedContainer__0e828 {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 
 
 /* voice menu */
 .container_e1958d {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 
 
 /* friends bar */
 .theme-dark .scroller__89969 {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 .theme-dark .privateChannels__9b518 {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 
 
 /* settings */
 .theme-dark .sidebarRegionScroller__8113e {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 .theme-dark .contentTransitionWrap__3ba4e {
-    background: #1E1F22;
+    background: var(--background-tertiary);
 }
 
 
 
-/* temp fixes */
+/* fixes */
 .form_d8a4a1:after {
     height: 0%;
     width: 0%;
