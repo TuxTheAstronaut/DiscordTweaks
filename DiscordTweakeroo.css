@@ -18,38 +18,45 @@
         height: 48px;
     }
 }
+
 .theme-dark .container__26baa {
     padding-right: 144px;
     -webkit-app-region: drag;
 }
+
 .theme-dark .container__26baa::after {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    width: 144px; /* Width of the draggable area */
+    width: 144px;
     height: 100%;
-    -webkit-app-region: none; /* This part is draggable */
-
+    -webkit-app-region: none;
 }
+
 .chatButton_a40cc3 {
     padding-right: 144px;
     -webkit-app-region: none;
 }
+
 .toolbar__62fb5 {
     -webkit-app-region: none;
 }
+
 .contentRegionShownSidebar__9d1b9:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 48px; /* Height of the region you want draggable */
-    z-index: 1; /* Ensure it's above other content */
+    height: 48px;
+    z-index: 1;
     -webkit-app-region: drag;
 }
 
+.topPill__63ad4 {
+    -webkit-app-region: none;
+}
 
 /* top bar */
 .theme-dark .searchBar__621ec {
