@@ -1,0 +1,139 @@
+/* title bar */
+.titleBar__710b0 {
+    padding: 0px;
+
+    &.withFrame__5e49e {
+        height: 0px;
+    }
+
+    .wordmarkWindows_ffbc5e {
+        svg {
+            display: none;
+        }
+    }
+
+    .winButton_f17fb6 {
+        padding: 0px;
+        width: 48px;
+        height: 48px;
+    }
+}
+.theme-dark .container__26baa {
+    padding-right: 144px;
+    -webkit-app-region: drag;
+}
+.theme-dark .container__26baa::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 144px; /* Width of the draggable area */
+    height: 100%;
+    -webkit-app-region: none; /* This part is draggable */
+
+}
+.chatButton_a40cc3 {
+    padding-right: 144px;
+    -webkit-app-region: none;
+}
+.toolbar__62fb5 {
+    -webkit-app-region: none;
+}
+.contentRegionShownSidebar__9d1b9:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px; /* Height of the region you want draggable */
+    z-index: 1; /* Ensure it's above other content */
+    -webkit-app-region: drag;
+}
+
+
+/* top bar */
+.theme-dark .searchBar__621ec {
+    background: var(--background-tertiary);
+    box-shadow: 0 4px 6px var(--background-tertiary), 0 1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
+}
+
+.theme-dark .searchBarComponent__8f95f {
+    border-radius: 8px;
+    border: 1px solid var(--background-primary);
+}
+
+
+
+/* profile */
+.theme-dark .container_debb33 {
+    background: var(--background-tertiary);
+    box-shadow: 0 -4px 6px var(--background-tertiary), 0 -1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
+}
+
+
+
+/* server channles */
+.theme-dark .container__7e23c {
+    background: var(--background-tertiary);
+}
+
+.theme-dark .sidebar_e031be {
+    background: var(--background-tertiary);
+}
+
+.theme-dark .header__77c95 {
+    box-shadow: none;
+}
+
+.theme-dark .animatedContainer__0e828 {
+    background: var(--background-tertiary);
+}
+
+
+
+/* voice menu */
+.container_e1958d {
+    background: var(--background-tertiary);
+}
+
+
+
+/* friends bar */
+.theme-dark .scroller__89969 {
+    background: var(--background-tertiary);
+}
+
+.theme-dark .privateChannels__9b518 {
+    background: var(--background-tertiary);
+}
+
+
+
+/* settings */
+.theme-dark .sidebarRegionScroller__8113e {
+    background: var(--background-tertiary);
+}
+
+.theme-dark .contentTransitionWrap__3ba4e {
+    background: var(--background-tertiary);
+}
+
+
+
+/* fixes */
+.form_d8a4a1:after {
+    height: 0%;
+    width: 0%;
+}
+
+.form_d8a4a1:before {
+    width: 100%;
+}
+
+.app_de4237 {
+    margin-top: -3px;
+}
+
+.platform-win .scroller_de945b {
+    padding-top: 12px;
+}
