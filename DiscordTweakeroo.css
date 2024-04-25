@@ -89,10 +89,6 @@
     background: var(--background-tertiary);
 }
 
-.platform-win .sidebar_e031be {
-    border-radius: 0px;
-}
-
 
 
 /* voice menu */
@@ -140,4 +136,8 @@
 
 .platform-win .scroller_de945b {
     padding-top: 12px;
+}
+
+.platform-win .sidebar_e031be {
+    border-radius: 0px;
 }
