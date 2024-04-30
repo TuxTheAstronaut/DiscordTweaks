@@ -58,6 +58,8 @@
     -webkit-app-region: none;
 }
 
+
+
 /* top bar */
 .theme-dark .searchBar__621ec {
     background: var(--background-tertiary);
@@ -67,6 +69,27 @@
 .theme-dark .searchBarComponent__8f95f {
     border-radius: 8px;
     border: 1px solid var(--background-primary);
+}
+
+
+
+/* notice banner */
+.notice__5fd4c  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin-right: 144px;
+    border-bottom-right-radius: 8px;
+    -webkit-app-region: drag;
+}
+
+.closeButton__90904 {
+    margin-top: 5px;
+}
+
+.button__33db6 {
+    margin-bottom: 10px;
 }
 
 
