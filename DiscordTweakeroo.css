@@ -48,7 +48,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 144px);
     height: 48px;
     z-index: 1;
     -webkit-app-region: drag;
