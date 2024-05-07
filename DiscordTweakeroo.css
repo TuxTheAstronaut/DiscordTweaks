@@ -19,6 +19,10 @@
     }
 }
 
+.platform-win .container__827e6 {
+    -webkit-app-region: drag;
+}
+
 .theme-dark .container__26baa {
     padding-right: 144px;
     -webkit-app-region: drag;
