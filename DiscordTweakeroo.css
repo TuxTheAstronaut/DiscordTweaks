@@ -171,3 +171,7 @@
 .platform-win .sidebar_e031be {
     border-radius: 0px;
 }
+
+.contentRegionShownSidebar__9d1b9::-webkit-scrollbar-track {
+    margin-top: 48px;   
+}
