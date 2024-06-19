@@ -18,6 +18,27 @@
 
 
 /* top bar */
+.theme-dark .themed_e44302 {
+    background: var(--background-tertiary);
+}
+
+.theme-dark .children_e44302:after {
+    background: linear-gradient(to right, rgba(54, 57, 63, 0) 0%, var(--background-tertiary) 100%);
+}
+
+.theme-light .themed_e44302 {
+    background: var(--background-tertiary);
+}
+
+.theme-light .children_e44302:after {
+    background: linear-gradient(to right, rgba(54, 57, 63, 0) 0%, var(--background-tertiary) 100%);
+}
+
+.searchBar_a46bef {
+    border-radius: 8px;
+    border: 1px solid var(--background-primary);
+}
+
 .searchBar_f0963d {
     background: var(--background-tertiary);
     box-shadow: 0 4px 6px var(--background-tertiary), 0 1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
@@ -94,4 +115,8 @@
 
 .platform-win .container_e40c16 {
     top: -48px;
+}
+
+.platform-win .sidebar_a4d4d9 {
+    border-radius: 10px;
 }
