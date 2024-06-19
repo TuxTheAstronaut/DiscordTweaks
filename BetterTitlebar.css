@@ -1,24 +1,21 @@
 /* title bar */
-.titleBar__710b0 {
-    &.withFrame__5e49e {
-        height: 28px;
-    }
+.titleBar_a934d8 {
 
-    .wordmarkWindows_ffbc5e {
+    height: 28px;
+
+    .wordmark_a934d8 {
         svg {
             height: 24px;
         }
     }
 
-    .winButton_f17fb6 {
+    .winButton_a934d8 {
         width: 46px;
         height: 32px;
     }
 }
 
-
-
 /* fixes */
-.platform-win .container__827e6 {
+.platform-win .container_e40c16 {
     top: -48px;
 }
