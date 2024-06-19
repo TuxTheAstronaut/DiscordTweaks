@@ -1,10 +1,10 @@
 /* top bar */
-.theme-dark .searchBar__621ec {
+.searchBar_f0963d {
     background: var(--background-tertiary);
     box-shadow: 0 4px 6px var(--background-tertiary), 0 1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
 }
 
-.theme-dark .searchBarComponent__8f95f {
+.searchBarComponent_f0963d {
     border-radius: 8px;
     border: 1px solid var(--background-primary);
 }
@@ -12,7 +12,7 @@
 
 
 /* profile */
-.theme-dark .container_debb33 {
+.panels_a4d4d9 .container_b2ca13 {
     background: var(--background-tertiary);
     box-shadow: 0 -4px 6px var(--background-tertiary), 0 -1px 3px var(--background-tertiary), 0 0 0 1px var(--background-tertiary);
 }
@@ -20,59 +20,55 @@
 
 
 /* server channles */
-.theme-dark .container__7e23c {
+.sidebar_a4d4d9 .container_ee69e0 {
     background: var(--background-tertiary);
 }
 
-.theme-dark .sidebar_e031be {
+.sidebar_a4d4d9 {
     background: var(--background-tertiary);
 }
 
-.theme-dark .header__77c95 {
+.header_fd6364 {
     box-shadow: none;
 }
 
-.theme-dark .animatedContainer__0e828 {
+.animatedContainer_fd6364 {
     background: var(--background-tertiary);
 }
 
 
 
 /* voice menu */
-.container_e1958d {
+.container_adcaac {
     background: var(--background-tertiary);
 }
 
 
 
 /* friends bar */
-.theme-dark .scroller__89969 {
-    background: var(--background-tertiary);
-}
-
-.theme-dark .privateChannels__9b518 {
+.container_adcaac {
     background: var(--background-tertiary);
 }
 
 
 
 /* settings */
-.theme-dark .sidebarRegionScroller__8113e {
+.sidebarRegionScroller_c25c6d {
     background: var(--background-tertiary);
 }
 
-.theme-dark .contentTransitionWrap__3ba4e {
+.contentTransitionWrap_c25c6d {
     background: var(--background-tertiary);
 }
 
 
 
 /* fixes */
-.form_d8a4a1:after {
+.form_a7d72e:after {
     height: 0%;
     width: 0%;
 }
 
-.form_d8a4a1:before {
+.form_a7d72e:before {
     width: 100%;
 }
