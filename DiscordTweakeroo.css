@@ -28,7 +28,6 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     width: 144px;
     height: 100%;
@@ -164,6 +163,7 @@
     content: "";
     position: fixed;
     top: 0;
+    left: 0;
     margin-left: 72px;
     width: calc(100% - 216px);
     height: 48px;
