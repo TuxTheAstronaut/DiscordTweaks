@@ -159,6 +159,7 @@
 
 
 /* discovery */
+.viewWrapper_a39aa3:before,
 .scroller_a3a4ce:before{
     content: "";
     position: fixed;
@@ -211,7 +212,6 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
-.viewWrapper_a39aa3:before,
 .directoryContainer_da3f59:before{
     content: "";
     position: fixed;
