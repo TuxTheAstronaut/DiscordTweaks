@@ -211,6 +211,7 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
+.viewWrapper_a39aa3:before,
 .directoryContainer_da3f59:before{
     content: "";
     position: fixed;
@@ -227,6 +228,8 @@
 .customScroller_c25c6d::-webkit-scrollbar-track,
 .shopScroll_e77fa3::-webkit-scrollbar-track,
 .scroller_a3a4ce::-webkit-scrollbar-track,
+.scroller_a39aa3::-webkit-scrollbar-track,
+.viewWrapper_a39aa3,
 .viewWrapper_a3a4ce {
     margin-top: 48px;
 }
