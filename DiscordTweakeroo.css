@@ -160,8 +160,14 @@
 
 /* discovery */
 .scroller_a3a4ce:before{
+    content: "";
+    position: fixed;
+    top: 0;
     margin-left: 72px;
     width: calc(100% - 216px);
+    height: 48px;
+    z-index: 1;
+    -webkit-app-region: drag; 
 }
 
 .pageWrapper_a3a4ce:before{
@@ -204,7 +210,6 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
-.scroller_a3a4ce:before,
 .directoryContainer_da3f59:before{
     content: "";
     position: fixed;
