@@ -9,6 +9,16 @@
     border: 1px solid var(--background-primary);
 }
 
+.topicClickTarget_bf3bbb {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    z-index: 1;
+    -webkit-app-region: none; 
+}
+
 
 
 /* profile */
