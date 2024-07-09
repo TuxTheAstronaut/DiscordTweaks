@@ -16,7 +16,7 @@
     width: 15%;
     height: 100%;
     z-index: 1;
-    -webkit-app-region: none; 
+    -webkit-app-region: no-drag;
 }
 
 
@@ -29,46 +29,20 @@
 
 
 
-/* server channles */
-.sidebar_a4d4d9 .container_ee69e0 {
-    background: var(--background-tertiary);
-}
-
+/* sidebar */
+.sidebar_a4d4d9 .sidebarContainer_a3a4ce,
+.sidebar_a4d4d9 .container_ee69e0,
+.sidebar_a4d4d9 .scroller_c47fa9,
+.sidebarRegionScroller_c25c6d,
+.contentTransitionWrap_c25c6d,
+.animatedContainer_fd6364,
+.container_adcaac,
 .sidebar_a4d4d9 {
     background: var(--background-tertiary);
 }
 
 .header_fd6364 {
     box-shadow: none;
-}
-
-.animatedContainer_fd6364 {
-    background: var(--background-tertiary);
-}
-
-
-
-/* voice menu */
-.container_adcaac {
-    background: var(--background-tertiary);
-}
-
-
-
-/* friends bar */
-.sidebar_a4d4d9 .scroller_c47fa9 {
-    background: var(--background-tertiary);
-}
-
-
-
-/* settings */
-.sidebarRegionScroller_c25c6d {
-    background: var(--background-tertiary);
-}
-
-.contentTransitionWrap_c25c6d {
-    background: var(--background-tertiary);
 }
 
 
