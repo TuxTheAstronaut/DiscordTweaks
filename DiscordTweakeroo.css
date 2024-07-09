@@ -71,6 +71,16 @@
     border: 1px solid var(--background-primary);
 }
 
+.topicClickTarget_bf3bbb {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    z-index: 1;
+    -webkit-app-region: none; 
+}
+
 
 
 /* notice banner */
@@ -214,7 +224,8 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
-.directoryContainer_da3f59:before{
+.directoryContainer_da3f59:before,
+.sidebarRegionScroller_c25c6d:before {
     content: "";
     position: fixed;
     top: 0;
