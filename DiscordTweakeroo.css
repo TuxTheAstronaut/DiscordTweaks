@@ -217,6 +217,7 @@
 .scroller_a3a4ce::-webkit-scrollbar-track,
 .scroller_a39aa3::-webkit-scrollbar-track,
 .viewWrapper_a39aa3,
-.viewWrapper_a3a4ce {
+.viewWrapper_a3a4ce,
+.container_e37a20 {
     margin-top: 48px;
 }
