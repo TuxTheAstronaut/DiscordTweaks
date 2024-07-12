@@ -19,33 +19,16 @@
     -webkit-app-region: drag;
 }
 
-.container_fc4f04,
-.subtitleContainer_a7d72e {
+.container_fc4f04{
     width: calc(100% - 144px);
     -webkit-app-region: drag;
 }
 
 .chatButton_dd069c {
-    padding-right: 144px;
-    -webkit-app-region: none;
+    padding-right: 144px; 
 }
 
-.toolbar_e44302 {
-    -webkit-app-region: none;
-}
-
-.contentRegionShownSidebar_c25c6d:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 144px);
-    height: 48px;
-    z-index: 1;
-    -webkit-app-region: drag;
-}
-
-.topPill_a0 {
+.toolbar_fc4f04 {
     -webkit-app-region: none;
 }
 
