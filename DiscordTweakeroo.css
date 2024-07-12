@@ -19,19 +19,9 @@
     -webkit-app-region: drag;
 }
 
-.container_e44302 {
-    padding-right: 144px;
+.subtitleContainer_a7d72e {
+    width: calc(100% - 144px);
     -webkit-app-region: drag;
-}
-
-.container_e44302::after { /*add .theme-dark if broken*/
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 144px;
-    height: 100%;
-    -webkit-app-region: none;
 }
 
 .chatButton_dd069c {
