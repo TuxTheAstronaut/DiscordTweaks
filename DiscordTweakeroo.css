@@ -139,6 +139,13 @@
 
 
 
+/* server boost */
+.scroller_a50853::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 /* discovery */
 .viewWrapper_a39aa3:before,
 .scroller_a3a4ce:before{
@@ -195,6 +202,7 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
+.appMount_ea7e65:before,
 .platform-win .container_e40c16:before,
 .directoryContainer_da3f59:before,
 .sidebarRegionScroller_c25c6d:before {
