@@ -9,18 +9,19 @@
     }
 
     .winButton_a934d8 {
-        padding: 0px;
-        width: 48px;
-        height: 48px;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+        margin-top: 9px;
+    }
+
+    .winButtonClose_a934d8 {
+        margin-right: 12px;
     }
 }
 
-.platform-win .container_e40c16 {
-    -webkit-app-region: drag;
-}
-
 .container_fc4f04{
-    padding-right: 144px;
+    padding-right: 112px;
     -webkit-app-region: drag;
 }
 
@@ -29,13 +30,15 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 144px;
-    height: 100%;
+    width: 90px;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 12px;
     -webkit-app-region: none;
 }
 
 .chatButton_dd069c {
-    padding-right: 144px; 
+    padding-right: 120px; 
 }
 
 .topPill_a0,
@@ -66,6 +69,15 @@
     -webkit-app-region: none; 
 }
 
+.toolbar_fc4f04:after {
+    content: "";
+    width: 1px;
+    height: 24px;
+    margin: 0 8px;
+    flex: 0 0 auto;
+    background: var(--background-modifier-accent);
+}
+
 
 
 /* notice banner */
@@ -74,8 +86,8 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    margin-right: 144px;
-    border-bottom-right-radius: 8px;
+    margin-right: 114px;
+    border-radius: 9px;
     -webkit-app-region: drag;
 }
 
@@ -183,13 +195,14 @@
 
 .scroller_cfe282::before,
 .gradient_d8215a:before,
+.platform-win .container_e40c16:before,
 .directoryContainer_da3f59:before,
 .sidebarRegionScroller_c25c6d:before {
     content: "";
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100% - 144px);
+    width: calc(100% - 100px);
     height: 48px;
     z-index: 1;
     -webkit-app-region: drag; 
