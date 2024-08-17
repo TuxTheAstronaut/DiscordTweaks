@@ -47,6 +47,13 @@
 
 
 
+/* discover page */
+.container_a56260::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 /* fixes */
 .form_a7d72e:after {
     height: 0%;
