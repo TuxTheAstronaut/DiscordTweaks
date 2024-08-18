@@ -160,6 +160,7 @@
     -webkit-app-region: drag; 
 }
 
+.container_fc867b::before,
 .scroller_a39aa3:before,
 .pageWrapper_a3a4ce:before{
     content: "";
@@ -239,7 +240,6 @@
     margin-top: 20px;
 }
 
-.container_fc867b::before, /*old discovery page*/
 .scroller_cfe282::before,
 .gradient_d8215a:before,
 .scroller_a50853:before,
