@@ -147,6 +147,7 @@
 
 
 /* discovery */
+.container_fc867b::before,
 .viewWrapper_a39aa3:before,
 .scroller_a3a4ce:before{
     content: "";
@@ -160,7 +161,6 @@
     -webkit-app-region: drag; 
 }
 
-.container_fc867b::before,
 .scroller_a39aa3:before,
 .pageWrapper_a3a4ce:before{
     content: "";
