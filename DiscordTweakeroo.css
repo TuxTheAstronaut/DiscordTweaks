@@ -239,6 +239,7 @@
     margin-top: 20px;
 }
 
+.container_fc867b::before, /*old discovery page*/
 .scroller_cfe282::before,
 .gradient_d8215a:before,
 .scroller_a50853:before,
