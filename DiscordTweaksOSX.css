@@ -46,10 +46,32 @@
 }
 
 
+/* old discover page */
+.container_fc867b::before,
+.viewWrapper_a39aa3:before,
+.scroller_a3a4ce:before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 72px;
+    width: calc(100% - 216px);
+    height: 48px;
+    z-index: 1;
+    -webkit-app-region: drag; 
+}
+
+
 
 /* discover page */
 .container_a56260::-webkit-scrollbar {
     display: none;
+}
+
+.searchIcon_e06425,
+.searchBar_e06425,
+.top_a0 .item_a0 {
+    -webkit-app-region: none;
 }
 
 
