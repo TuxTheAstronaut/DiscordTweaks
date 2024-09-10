@@ -213,6 +213,13 @@
 
 
 
+/* shop */
+.shopScroll_e77fa3::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 /* fixes */
 .form_a7d72e:after {
     height: 0%;
