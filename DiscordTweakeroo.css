@@ -186,28 +186,17 @@
     height: 32px;
 }
 
-.headerBar_accde0 {
-    width: calc(100% - 100px);
-}
-
 .headerBar_accde0:after,
 .backdrop_accde0{
     width: calc(100% + 100px);
 }
 
-.dragRegion_d746e5 {
-    -webkit-app-region: drag;
-    width: calc(100% - 100px);
-}
-
-
-.searchIcon_e06425,
-.searchBar_e06425,
 .top_a0 .item_a0 {
     -webkit-app-region: none;
+    margin-bottom: 6px;
 }
 
-.container_a56260::-webkit-scrollbar {
+.scroller_b91a2d::-webkit-scrollbar {
     display: none;
 }
 
