@@ -121,6 +121,7 @@
 .contentTransitionWrap_c25c6d,
 .animatedContainer_fd6364,
 .container_adcaac,
+.container_e462a4, /* discover */
 .sidebar_a4d4d9 {
     background: var(--background-tertiary);
 }
@@ -189,6 +190,17 @@
 .headerBar_accde0:after,
 .backdrop_accde0{
     width: calc(100% + 100px);
+}
+
+.headerBar_accde0,
+.dragRegion_d746e5 {
+    -webkit-app-region: drag;
+    width: calc(100% - 100px);
+}
+
+.searchIcon_e06425,
+.searchBar_e06425 {
+    -webkit-app-region: none;
 }
 
 .top_a0 .item_a0 {
