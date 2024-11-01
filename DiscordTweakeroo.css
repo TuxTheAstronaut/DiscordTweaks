@@ -105,6 +105,23 @@
 
 
 
+/* moderate user */
+.topRow_d936aa::before {
+    position: fixed;
+    content: "";
+    top: 0;
+    height: 90px;
+    width: 370px;
+    margin-left: -20px;
+    -webkit-app-region: drag;
+}
+
+.closeAction_d936aa {
+    margin-top: 15px;
+}
+
+
+
 /* profile */
 .panels_a4d4d9 .container_b2ca13 {
     background: var(--background-tertiary);
