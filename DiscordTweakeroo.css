@@ -245,7 +245,7 @@
 }
 
 .form_a7d72e:before {
-    width: 100%;
+    width: calc(100% - 16px);
 }
 
 .app_a01fb1 {
