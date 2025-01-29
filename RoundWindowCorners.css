@@ -21,3 +21,7 @@
     pointer-events: none;
     z-index: 99999; /* Ensure the border appears above the other */
 }
+
+.backdrop__78332 {
+    border-radius: 14px;
+}
