@@ -1,4 +1,4 @@
-.appMount_ea7e65 {
+.appMount__51fd7 {
     width: 100%;
     height: 100%;
     border: 1px solid black;
@@ -9,7 +9,7 @@
     background-color: transparent;
 }
 /* inner border */
-.appMount_ea7e65:before { 
+.appMount__51fd7:before { 
     content: "";
     position: fixed;
     box-sizing: border-box;
@@ -20,32 +20,4 @@
     background-color: transparent;
     pointer-events: none;
     z-index: 99999; /* Ensure the border appears above the other */
-}
-
-
-body,
-html {
-    background: transparent;
-    background-color: transparent;
-}
-
-.scroller_a39aa3:before,
-.pageWrapper_a3a4ce:before {
-    margin-top: 2px;
-    border-top-right-radius: 14px;
-    width: calc(100% - 320px);
-}
-
-.scroller_a39aa3:before {
-    width: calc(100% - 355px);
-}
-
-.backdrop_e4f2ae {
-    margin: 2px;
-    border-radius: 14px;
-}
-
-.jumbleWrapper_abcfcd {
-    margin: 2px;
-    margin-bottom: 50px;
 }
