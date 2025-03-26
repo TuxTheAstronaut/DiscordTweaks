@@ -2,18 +2,28 @@
 .appMount__51fd7 {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+
     border-radius: 10px;
+}
+/* Inner Border */
+.appMount__51fd7:after {
+    content: "";
+    position: fixed;
     box-sizing: border-box;
-    overflow: hidden;
-    background: transparent;
+    width: calc(100%);
+    height: calc(100%);
+    border-radius: 10px;
+    border: 1px solid black;
     background-color: transparent;
+    pointer-events: none;
+    z-index: 99999; /* Ensure the border appears above the other */
 }
 /* Inner Border */
 .appMount__51fd7:before {
     content: "";
     position: fixed;
     box-sizing: border-box;
+    margin: 1px;
     width: calc(100% - 2px);
     height: calc(100% - 2px);
     border-radius: 10px;
@@ -24,11 +34,16 @@
 }
 
 /* Fixes */
-.backdrop__78332 {
-    border-radius: 10px;
-}
 body,
 html {
     background: transparent !important;
     background-color: transparent !important;
+}
+/* Backdrop */
+.backdrop__78332 {
+    border-radius: 10px;
+}
+.container_c48ade, /* Main Window Container */
+.systemBar_c38106  /* Backdrop Window Container */ { 
+    padding-top: 2px;
 }
