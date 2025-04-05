@@ -10,3 +10,12 @@
 .visual-refresh .base_c48ade {
     grid-template-rows: [top] 36px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
 }
+
+/* Temporary Fix To Prevent Overlapping Buttons */
+#window-controls-filler {
+    display: none;
+}
+
+.trailing_c38106 {
+    padding: 100px;
+}
