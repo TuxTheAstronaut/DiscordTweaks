@@ -1,0 +1,12 @@
+#window-controls-container {
+    right: 8px !important;
+}
+
+#window-title {
+    -webkit-app-region: drag !important;
+}
+
+/* Override Titlebar Size */
+.visual-refresh .base_c48ade {
+    grid-template-rows: [top] 36px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
+}
