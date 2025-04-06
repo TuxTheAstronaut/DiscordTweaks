@@ -1,0 +1,47 @@
+#window-controls-container > div {
+    mask-size:85%;
+    margin-top: 2%;
+    width: 32px;
+}
+#window-controls-container {
+    right: 2px !important;
+}
+
+#window-title {
+    -webkit-app-region: drag !important;
+}
+
+/* Override Titlebar Size */
+.visual-refresh .base_c48ade {
+    grid-template-rows: [top] 40px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
+}
+/* Settings */
+.contentRegion__23e6b {
+    padding-top: 40px;
+}
+
+/* Temporary Fix To Prevent Overlapping Buttons */
+#window-controls-filler {
+    display: none;
+}
+
+.trailing_c38106 {
+    padding-right: 100px;
+}
+
+/* Icons */
+#minimize {
+    mask: url('data:image/svg+xml,<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 11.457L2.5 5.904 3.148 5.25 8 10.148 12.852 5.25 13.5 5.904Z" fill="%2393939b" /></svg>')
+}
+
+#maximize {
+    mask-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 5.25L2.5 10.803 3.148 11.457 8 6.559 12.852 11.457 13.5 10.803Z" fill="%2393939b" /></svg>')
+}
+
+#maximized {
+    mask-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.793L7.677 3.115 2.793 8 8 13.207 13.207 8ZM8 4.083L11.917 8 8 11.917 4.083 8Z" fill="%2393939b" /></svg>');
+}
+
+#quit {
+    mask: url('data:image/svg+xml,<svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M19.071 4.929a10 10 0 00-14.142 0 10 10 0 000 14.142 10 10 0 0014.142 0 10 10 0 000-14.142zM16.5 6.5 17.5 7.5 13 12 17.5 16.5 16.5 17.5 12 13 7.5 17.5 6.5 16.5 11 12 6.5 7.5 7.5 6.5 12 11z" fill="%2393939b"/></svg>')
+}
