@@ -1,6 +1,6 @@
 #window-controls-container > div {
-    mask-size:85%;
-    margin-top: 2%;
+    mask-size:26px;
+    margin-top: 1px;
     width: 32px;
 }
 #window-controls-container {
